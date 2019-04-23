@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>时间轴列表</title>
+    <style>
+        body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+      .ym-timeline{display:block}
+      .ym-timeline ul{margin-left:30px;border-left:2px solid green;padding:0}
+      .ym-timeline ul li{width:100%;margin-left:-12px;line-height:20px;font-weight:narmal;list-style:none}
+      .ym-timeline ul li span.yuan{width:8px;height:8px;background:#fff;border:2px solid green;margin:5px;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;overflow:hidden;display:inline-block;float:left}
+      .ym-timeline ul li span.diamond{width:8px;height:8px;background:#fff;border:2px solid green;margin:5px;overflow:hidden;display:inline-block;float:left;transform:rotate(45deg);-ms-transform:rotate(45deg);-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg)}
+      .ym-timeline ul li span.stime{padding-left:7px;font-size:12px;line-height:20px;color:green}
+      .ym-timeline ul li .ym-tl-content{padding:10px 0 10px 20px;font-size:14px;line-height:25px;word-wrap:break-word;word-break:break-all}
+      .ym-timeline ul li:first-child span.diamond,.ym-timeline ul li:first-child span.yuan{margin-top:0}
+      .ym-timeline ul li:last-child span.diamond,.ym-timeline ul li:last-child span.yuan{margin-top:8px}
+			.ym-timeline ul li .ym-tl-content img{max-width:100%;}
+    </style>
+</head>
+
+<body>
+    <div class="ym-timeline">
+        <ul>
+            <li>
+							<span class="diamond"></span>
+							<span class="stime">2017-07-17</span> 
+							<div class="ym-tl-content">
+								是开始
+								<img width="2000px" src="https://dn-coding-net-production-static.qbox.me/b7f67648-a031-4b36-b1b2-98a9edd2f6a9.png"/>
+								亦是结束								<p>ttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttestt</p>
+								
+							</div>
+            </li>
+            <li>
+							<span class="diamond"></span>
+							<span class="stime">2017-07-18</span> 
+							<div class="ym-tl-content">
+								是开始
+								ttesttesttesttesttesttesttesttesttesttesttest	testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+								testtesttesttesttesttesttesttesttesttesttestt
+								亦是结束
+							</div>
+            </li>
+            <li>
+							<span class="diamond"></span>
+							<span class="stime">2017-07-19</span> 
+							<div class="ym-tl-content">
+								是开始
+								ttesttesttesttesttesttesttesttesttesttesttest	testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+								testtesttesttesttesttesttesttesttesttesttestt
+								亦是结束
+							</div>
+            </li>
+            <li>
+							<span class="diamond"></span>
+							<span class="stime">2017-07-20</span> 
+							<div class="ym-tl-content">
+								是开始
+								ttesttesttesttesttesttesttesttesttesttesttest	testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+								testtesttesttesttesttesttesttesttesttesttestt
+								亦是结束
+							</div>
+            </li>
+            <li>
+							<span class="yuan"></span>
+							<span class="stime"></span> 
+            </li>
+        </ul>
+    </div>
+</body>
